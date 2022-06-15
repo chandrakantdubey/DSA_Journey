@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 // Manipultion of numbers for counting, reversing the digits and so on.
 
-class mathematcis {
+class count_of_digits {
     public static void main(String[] args) {
 
         // take the input of the digit from the user using the scanner class
@@ -51,8 +51,6 @@ class mathematcis {
     static int count_Of_Digits(int n) {
         return (1+((int) Math.log10(n)));
     }
-
-
 
     // reversing the digits in the number using iterative method
     public static int reverseDigit(int n) {
