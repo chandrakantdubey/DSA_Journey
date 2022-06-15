@@ -6,11 +6,11 @@ class count_of_digits {
     public static void main(String[] args) {
 
         // take the input of the digit from the user using the scanner class
-        Scanner input = new Scanner(System.in);
+        Scanner userInput = new Scanner(System.in);
         // created a new scanner object
         System.out.println("enter a number");
         // taking input from the user
-        int digit = input.nextInt();
+        int digit = userInput.nextInt();
         // the input is of type of integer
 
 
