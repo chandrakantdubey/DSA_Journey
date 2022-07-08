@@ -5,7 +5,8 @@ public class palindrome {
         Scanner userInput = new Scanner(System.in);
         int num = userInput.nextInt();
         System.out.println(isPalindrome(num));
-        
+        // int temp = Palindrome(num, 0);
+        System.out.println(Palindrome(num, 0)==num);
     }
    
 // iterative function
@@ -20,6 +21,13 @@ public static boolean isPalindrome(int n){
         return true;
     }
     return false;
+}
+
+
+public static int Palindrome(int num, int temp){
+    if(num == 0) return temp;
+    temp = temp*10 + num%10;
+    return Palindrome(num/10, temp);
 }
 
 }

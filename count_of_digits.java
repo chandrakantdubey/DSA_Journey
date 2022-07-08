@@ -5,7 +5,7 @@ import java.util.Scanner;
 class count_of_digits {
     public static void main(String[] args) {
 
-        // take the input of the digit from the user using the scanner class
+        // take the input of the digit from the user using the scanner object
         Scanner userInput = new Scanner(System.in);
         // created a new scanner object
         System.out.println("enter a number");
