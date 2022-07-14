@@ -1,3 +1,5 @@
+package Strings;
+
 public class Strings {
     public static void main(String[] args) {
         // creating a string using String class.

@@ -1,3 +1,5 @@
+package Math;
+
 import java.util.Scanner;
 
 public class Trailing_Zeros {
@@ -6,12 +8,13 @@ public class Trailing_Zeros {
         int N = user_input.nextInt();
         System.out.println(cntTraZeros(N));
     }
-    static int cntTraZeros(int N){
+
+    static int cntTraZeros(int N) {
         int res = 0;
-        for(int i = 5; i <= N; i = i*5){
-            res = res+N/i;
+        for (int i = 5; i <= N; i = i * 5) {
+            res = res + N / i;
         }
         return res;
-        
+
     }
 }
