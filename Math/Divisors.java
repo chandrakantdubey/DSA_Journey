@@ -1,3 +1,4 @@
+package Math;
 import java.util.Scanner;
 
 public class Divisors {
@@ -7,6 +8,7 @@ public class Divisors {
        
        divisors(num);
        all_divisors(num);
+       user_input.close();
     }
     static void divisors(int num){
         for(int i = 1; i<=num; i++){

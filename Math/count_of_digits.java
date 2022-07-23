@@ -1,3 +1,4 @@
+package Math;
 import java.util.Scanner;
 
 // Manipultion of numbers for counting, reversing the digits and so on.
@@ -29,6 +30,7 @@ class count_of_digits {
 
         // reversing the digit in the number
         System.out.println(reverseDigit(digit));
+        userInput.close();
 
     }
     

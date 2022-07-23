@@ -1,4 +1,4 @@
-
+package Math;
 import java.util.Scanner;
 
 public class palindrome {

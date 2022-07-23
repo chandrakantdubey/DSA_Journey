@@ -1,3 +1,4 @@
+package Math;
 import java.lang.Thread.State;
 import java.util.Scanner;
 
